@@ -138,7 +138,7 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
-"@toast-ui/editor@^2.5.1":
+"@toast-ui/editor@^2.5.0":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@toast-ui/editor/-/editor-2.5.1.tgz#42671c52ca4b97c84f684d09c2966711b36f41a7"
   integrity sha512-LVNo/YaNItUemEaRFvFAVn7w/0U7yxEheMdn6GEGxqo727rRZD1MH7OTDVq6NeQ+P93VwFpa0i9GGRBhNNEbPQ==
@@ -146,12 +146,12 @@
     "@types/codemirror" "0.0.71"
     codemirror "^5.48.4"
 
-"@toast-ui/react-editor@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@toast-ui/react-editor/-/react-editor-2.5.1.tgz#c2d9a8075422da105c2f8af6540a00bf96a29c96"
-  integrity sha512-L69DiBWWYGyHk2bjAdhZYEsIAHw8mZMj6+ln4DhuIZa45NoOfvLd7IzmdD+yy8rf99NT3Rgsnl/sR9r07NbZYg==
+"@toast-ui/react-editor@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@toast-ui/react-editor/-/react-editor-2.5.0.tgz#bf5027487d53e3fbec7188a9cf29de68e4721fb8"
+  integrity sha512-hiUax+ylxL4szvPfnG49QFN7kIGn9hOQGTGgxHClzpmK3S0hppftHbERdi1i4l6ntoORpwKjsJ7dq7yoiGH5nQ==
   dependencies:
-    "@toast-ui/editor" "^2.5.1"
+    "@toast-ui/editor" "^2.5.0"
 
 "@types/codemirror@0.0.71":
   version "0.0.71"
