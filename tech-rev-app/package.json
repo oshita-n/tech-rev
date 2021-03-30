@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "@toast-ui/react-editor": "2.5.0",
+    "draft-js": "^0.11.7",
     "next": "10.0.9",
     "react": "^17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
