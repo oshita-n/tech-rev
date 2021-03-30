@@ -3,8 +3,8 @@ import Link from 'next/link'
 const edit = () => {
     return (
         <div>
-            <p class="text-6xl">Editorを追加予定。</p>
-            <Link href="/"><a class="text-3xl">ホームに戻る</a></Link>
+            <p className="text-6xl">Editorを追加予定。</p>
+            <Link href="/"><a className="text-3xl">ホームに戻る</a></Link>
         </div>
     );
 };
