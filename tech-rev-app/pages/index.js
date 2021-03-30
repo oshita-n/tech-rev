@@ -18,16 +18,20 @@ export default function Home() {
           書いた記事をレビューしあって、記事の品質を高めましょう
         </p>
 
-        <div className={styles.grid}>
-          <a href="/" className={styles.card}>
-            <h3>記事執筆 &rarr;</h3>
-            <p>記事を書いて知識を共有しましょう</p>
-          </a>
+        <div class="grid grid-cols-2 gap-4 ">
+          <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-md cursor-pointer hover:bg-gray-200 space-y-10">
+            <blockquote>記事執筆</blockquote>
+            <figcaption class="font-medium">
+              <div class="text-gray-500">
+                記事を書いて知識を共有しましょう
+              </div>
+            </figcaption>
+          </div>
 
-          <a href="/" className={styles.card}>
-            <h3>レビューする &rarr;</h3>
+          <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-md cursor-pointer hover:bg-gray-200">
+            <p>レビューする</p>
             <p>レビューして記事の品質を高めましょう</p>
-          </a>
+          </div>
         </div>
       </main>
 
